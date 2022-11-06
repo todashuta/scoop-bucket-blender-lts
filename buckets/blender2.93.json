@@ -1,0 +1,25 @@
+{
+    "version": "2.93.11",
+    "description": "3D creation suite",
+    "homepage": "https://www.blender.org",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.blender.org/release/Blender2.93/blender-2.93.11-windows-x64.zip",
+            "hash": "9ce7186238c574558d8d58a5f16ae7c6167e6278781b6c9bb732ae1fd8688dd1",
+            "extract_dir": "blender-2.93.11-windows-x64"
+        }
+    },
+    "bin": [
+        [
+            "blender.exe",
+            "blender-2.93"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "blender.exe",
+            "Blender 2.93 LTS"
+        ]
+    ]
+}
