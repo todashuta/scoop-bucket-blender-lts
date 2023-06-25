@@ -1,0 +1,25 @@
+{
+    "version": "FIXME",
+    "description": "3D creation suite",
+    "homepage": "https://www.blender.org",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "FIXME",
+            "hash": "FIXME",
+            "extract_dir": "FIXME"
+        }
+    },
+    "bin": [
+        [
+            "blender.exe",
+            "blender-3.6"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "blender.exe",
+            "Blender 3.6 LTS"
+        ]
+    ]
+}
