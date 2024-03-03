@@ -1,13 +1,13 @@
 {
-    "version": "3.3.11",
+    "version": "3.3.12",
     "description": "3D creation suite",
     "homepage": "https://www.blender.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.blender.org/release/Blender3.3/blender-3.3.11-windows-x64.zip",
-            "hash": "2db73f77690a22034fb2473daf1486ba7343e92244bb524d9df14e859628f542",
-            "extract_dir": "blender-3.3.11-windows-x64"
+            "url": "https://download.blender.org/release/Blender3.3/blender-3.3.12-windows-x64.zip",
+            "hash": "0ebbe7d6d5f34261ee136b7d218d903ac1b355a9f19fe23836ae10d11d56b51a",
+            "extract_dir": "blender-3.3.12-windows-x64"
         }
     },
     "bin": [
