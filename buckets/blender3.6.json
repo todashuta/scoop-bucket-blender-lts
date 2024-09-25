@@ -1,13 +1,13 @@
 {
-    "version": "3.6.9",
+    "version": "3.6.16",
     "description": "3D creation suite",
     "homepage": "https://www.blender.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.blender.org/release/Blender3.6/blender-3.6.9-windows-x64.zip",
-            "hash": "21587ba31003a97298da520f2a0677f2c786f1c58df47f147d50e88f2e01f725",
-            "extract_dir": "blender-3.6.9-windows-x64"
+            "url": "https://download.blender.org/release/Blender3.6/blender-3.6.16-windows-x64.zip",
+            "hash": "fa0b50901692f59dcd53c696f1ae2b0e7a61c44bdd61f9dcbec83d990f51055d",
+            "extract_dir": "blender-3.6.16-windows-x64"
         }
     },
     "bin": [
