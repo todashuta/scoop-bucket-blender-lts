@@ -3,6 +3,7 @@
     "description": "3D creation suite",
     "homepage": "https://www.blender.org",
     "license": "GPL-3.0-or-later",
+    "notes": "Blender 3.6 LTS has reached end-of-life, it is recommended to upgrade to an active LTS release.",
     "architecture": {
         "64bit": {
             "url": "https://download.blender.org/release/Blender3.6/blender-3.6.22-windows-x64.zip",
