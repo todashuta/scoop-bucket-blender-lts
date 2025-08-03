@@ -42,3 +42,9 @@ __Install Blender 2.93 LTS (EOL)__
 ```
 $ scoop install blender2.93
 ```
+
+__Install Blender 2.83 LTS (EOL)__
+
+```
+$ scoop install blender2.83
+```
