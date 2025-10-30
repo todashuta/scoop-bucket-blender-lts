@@ -1,13 +1,13 @@
 {
-    "version": "4.2.14",
+    "version": "4.2.15",
     "description": "3D creation suite",
     "homepage": "https://www.blender.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.blender.org/release/Blender4.2/blender-4.2.14-windows-x64.zip",
-            "hash": "f768bfdef7a8376ebd118f972577c28298592355fa52fe15e90c800e8e6b149e",
-            "extract_dir": "blender-4.2.14-windows-x64"
+            "url": "https://download.blender.org/release/Blender4.2/blender-4.2.15-windows-x64.zip",
+            "hash": "e17c122edb011159bb825e2fba2118e232ba61e47ba610e116e743d5a7798d42",
+            "extract_dir": "blender-4.2.15-windows-x64"
         }
     },
     "bin": [
