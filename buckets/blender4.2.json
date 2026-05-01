@@ -1,13 +1,13 @@
 {
-    "version": "4.2.19",
+    "version": "4.2.20",
     "description": "3D creation suite",
     "homepage": "https://www.blender.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.blender.org/release/Blender4.2/blender-4.2.19-windows-x64.zip",
-            "hash": "f704314807eeac658e585d44d5ee5473294eec627cd55f5460d2d3f83b9e158a",
-            "extract_dir": "blender-4.2.19-windows-x64"
+            "url": "https://download.blender.org/release/Blender4.2/blender-4.2.20-windows-x64.zip",
+            "hash": "e7af477403bd5e0bb98a0ef6f738116bf88eb6a66043bc2cb0672fe01c825009",
+            "extract_dir": "blender-4.2.20-windows-x64"
         }
     },
     "bin": [
