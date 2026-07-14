@@ -11,19 +11,25 @@ $ scoop bucket add blender-lts https://github.com/todashuta/scoop-bucket-blender
 $ scoop update
 ```
 
+__Install Blender 5.2 LTS__
+
+```
+$ scoop install blender5.2
+```
+
 __Install Blender 4.5 LTS__
 
 ```
 $ scoop install blender4.5
 ```
 
-__Install Blender 4.2 LTS__
+-----
+
+__Install Blender 4.2 LTS (EOL)__
 
 ```
 $ scoop install blender4.2
 ```
-
------
 
 __Install Blender 3.6 LTS (EOL)__
 
