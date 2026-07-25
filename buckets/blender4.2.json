@@ -1,13 +1,14 @@
 {
-    "version": "4.2.22",
+    "version": "4.2.23",
     "description": "3D creation suite",
     "homepage": "https://www.blender.org",
     "license": "GPL-3.0-or-later",
+    "notes": "Blender 4.2 LTS has reached end-of-life, it is recommended to upgrade to an active LTS release.",
     "architecture": {
         "64bit": {
-            "url": "https://download.blender.org/release/Blender4.2/blender-4.2.22-windows-x64.zip",
-            "hash": "8ecc0531bbe6e154e9e680aaf417de9fa8882cf81ee7221706ce01e6163b4744",
-            "extract_dir": "blender-4.2.22-windows-x64"
+            "url": "https://download.blender.org/release/Blender4.2/blender-4.2.23-windows-x64.zip",
+            "hash": "82e791475779a7342424a480bdde9a20b43710da9264c60346125aa16cd910cb",
+            "extract_dir": "blender-4.2.23-windows-x64"
         }
     },
     "bin": [
