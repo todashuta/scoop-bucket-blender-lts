@@ -8,7 +8,7 @@
 - Blenderのreleaseページを確認する
     - https://download.blender.org/release/Blender5.2/
     - https://download.blender.org/release/Blender4.5/
-    - 一覧は辞書順なので「最後の行が最新」にはならない（4.5.9 の次に 4.5.10 が来る）。`-windows-x64.zip` のファイル名からバージョン番号を取り出して数値比較し、最大値を選ぶこと
+    - 一覧は辞書順なので「最後の行が最新」にはならない（`blender-4.5.10-windows-x64.zip` は `blender-4.5.9` より**前**、`4.5.1` の直後に並ぶ）。`-windows-x64.zip` のファイル名からバージョン番号を取り出して数値比較し、最大値を選ぶこと
 - 新しいバージョンがあれば sha256 を取得する
     - 取得元は `https://download.blender.org/release/Blender5.2/blender-<version>.sha256` のように、release 直下にある `Blender<メジャー.マイナー>` ディレクトリ内の `blender-<version>.sha256` を直接叩く。全プラットフォームの hash 一覧が返るので、その中の `blender-<version>-windows-x64.zip` の行を使う
     - ※`blender-<version>-windows-x64.zip.sha256` という名前では存在しない（404 になる）。対象ファイル名に `.sha256` を接尾辞した URL は作らないこと
