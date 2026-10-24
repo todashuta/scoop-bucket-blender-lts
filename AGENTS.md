@@ -24,7 +24,7 @@
     - メッセージは既存の慣習に合わせて `Update (<5.2系の最新版>, <4.5系の最新版>)` の形にする（例: `Update (5.2.3, 4.5.15)`）
     - 両方の bucket を同時に更新した場合は 1 コミットにまとめてよい（過去の履歴がそうなっている）
 
-## 参考コマンド
+## 参考コマンド（Windows / PowerShell）
 
 ```powershell
 # 対象系の最新バージョン番号（数値ソートするので辞書順の罠を回避できる）
@@ -39,3 +39,26 @@ foreach ($d in "Blender5.2", "Blender4.5") {
 # sha256 の取得（この中の windows-x64.zip の行を architecture.64bit.hash に入れる）
 (Invoke-WebRequest "https://download.blender.org/release/Blender4.5/blender-4.5.15.sha256" -UseBasicParsing).Content
 ```
+
+## 参考コマンド（macOS / bash・zsh）
+
+```bash
+# 対象系の最新バージョン番号（数値ソートするので辞書順の罠を回避できる）
+for d in Blender5.2 Blender4.5; do
+    v=$(curl -s "https://download.blender.org/release/$d/" \
+        | grep -oE 'blender-[0-9]+(\.[0-9]+)+-windows-x64\.zip' \
+        | sed -E 's/blender-(.*)-windows-x64\.zip/\1/' \
+        | sort -V | tail -1)
+    echo "$d latest => $v"
+done
+
+# sha256 の取得（この中の windows-x64.zip の行を architecture.64bit.hash に入れる）
+curl -s "https://download.blender.org/release/Blender4.5/blender-4.5.15.sha256" | grep 'windows-x64.zip'
+
+# JSON の形式チェック
+jq empty buckets/blender5.2.json
+# jq が入っていない環境では python3 でもよい
+python3 -c 'import json,sys; json.load(open(sys.argv[1]))' buckets/blender5.2.json
+```
+
+- `sort -V` は macOS 標準の `sort` が対応していない古い環境がある。その場合は `sort -V` を `python3` のバージョン比較に置き換える。
