@@ -1,13 +1,13 @@
 {
-    "version": "5.2.3",
+    "version": "5.2.4",
     "description": "3D creation suite",
     "homepage": "https://www.blender.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://download.blender.org/release/Blender5.2/blender-5.2.3-windows-x64.zip",
-            "hash": "723f08a4401502561eb763cdeacf8745b31e5f3f154d287d3830d97cf75dc2fb",
-            "extract_dir": "blender-5.2.3-windows-x64"
+            "url": "https://download.blender.org/release/Blender5.2/blender-5.2.4-windows-x64.zip",
+            "hash": "bbd78f8931dc940444da4ff2983374930f9f5c092ae0e330588e9760bb9d967c",
+            "extract_dir": "blender-5.2.4-windows-x64"
         }
     },
     "bin": [
